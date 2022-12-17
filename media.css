@@ -1,0 +1,54 @@
+@media(max-width:768px){
+    .partner__content{
+        overflow-x: auto ;
+        column-gap: 13px;
+    }
+    .partner__card{
+        width: 400px;
+    }
+    
+}
+@media(max-width:560px){
+    .registr__content{
+        width: 325px;
+    }
+    .registr__title{
+        font-size: 25px;
+    }
+    .registr__input{
+        width: 240px;
+    }
+    .region{
+        width: 240px;
+    }
+    .img__text{
+        border: none;
+        font-size: 23px;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .partner__card{
+        width: 300px;
+    }
+    .shap__img1{
+        display: none;
+    }
+}
+@media(max-width:365px){
+    .img__text{
+        display: none;
+    }
+    .registr__content{
+        width: 305px;
+    }
+    .registr__title{
+        font-size: 15px;
+    }
+    .registr__input{
+        width: 220px;
+    }
+    .region{
+        width: 220px;
+    }
+}
